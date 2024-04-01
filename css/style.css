@@ -1,0 +1,162 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2c2c2c;    
+
+}
+
+/* Стилі для обнулення відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Клас для обнулення базових властивостей списків (ul) */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Клас для обнулення базових властивостей у посилань */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+
+address {
+  font-style: normal;
+}
+
+.container {
+    width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.offering {
+    background-color: #ffe550;
+    padding-top: 113px;
+    padding-bottom: 124px;
+}
+
+.offering-conteiner {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.offering-text-wrap {
+    max-width: 573px;
+}
+
+.offering-title {
+    font-size: 42px;
+line-height: 1.2;
+margin-bottom: 20px;
+}
+.offering-text {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.offering-list {
+    display: flex;
+    gap: 67px;
+    margin-bottom: 32px;
+}
+.offering-item {
+    width: calc((100% - 67px) / 2);
+}
+.offering-subtitle {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+.offering-desc {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.offering-btn {
+    font-weight: 500;
+font-size: 13px;
+line-height: 1.5;
+border: 2px solid #7eb101;
+border-radius: 30px;
+padding: 10px 20px;
+min-width: 106px;
+height: 40px;
+background-color: #fff;
+cursor: pointer;
+}
+
+.header {
+    height: 72px;
+}
+
+.header-conteiner {
+    display: flex;
+}
+
+.nav {
+    
+}
+.nav-list {
+    display: flex;
+}
+
+.nav-list-item {
+}
+
+.nav-link {
+}
+
+.nav-link:hover,
+.nav-linc:focus {
+
+}
+
+.button-header {
+    border-radius: 30px;
+padding: 6px 17px;
+min-width: 98px;
+height: 32px;
+background: #bbf330;
+cursor: pointer;
+border: none;
+}
+
+
+.favorites {
+    padding-top: 120px;
+    padding-bottom: 104px;
+}
+.container {
+}
+.favorites-title {
+}
+.favorites-text {
+}
+.favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.favorites-item {
+    width: 395px;
+height: 397px;
+border-radius: 197px;
+justify-items: ;
+}

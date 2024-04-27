@@ -18,8 +18,9 @@
   </head>
   <body>
     <header class="header">
-      <div class="conteiner header-conteiner">
+      <div class="container header-container">
         <a href="./index.html"><img src="./images/logo.png" class="logo" /></a>
+       <div class="nav-wrap">
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-list-item"><a href="" class="nav-link">Home</a></li>
@@ -35,26 +36,24 @@
 
     <main>
       <section>
-        <div class="conteiner">
-          <h1>Enjoy Your Favorite Food From Anywhere</h1>
-          <p>
+        <div class="container hero">
+
+          <div class="wrap-into-hero">
+          <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+          <p class="hero-text">
             With just a few clicks, you can have your favorite meals delivered straight to your
             doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal
             from the comfort of your own home.
           </p>
           <button class="button-header">Order Now</button>
-          <img src="./images/salat.png" alt="salat" />
+        </div>
+          <img src="./images/salat.png" alt="salat" class="img-hero"/>
         </div>
       </section>
 
-      <section>
-        <h1></h1>
-        <p></p>
-        <button></button><img src="" alt="" />
-      </section>
       <section class="offering">
         <div class="container offering-conteiner">
-          <img src="./images/aple-min.png" alt="apple" width="396" height="502" />
+          <img src="./images/aple-min.png" alt="apple" width="396" height="502" class="apple-img-green"/>
           <div class="offering-text-wrap">
             <h2 class="offering-title">What’s Special About Our Offerings</h2>
             <p class="offering-text">
@@ -64,6 +63,7 @@
             </p>
             <ul class="offering-list">
               <li class="offering-item">
+                <svg class="icon-offering" width="48" height="48"><use href="./images/symbol-defs.svg#icon-rocket"></use></svg>
                 <h3 class="offering-subtitle">Fasest Delivery</h3>
                 <p class="offering-desc">
                   Our advanced logistics system and dedicated delivery partners ensure that your
@@ -71,6 +71,7 @@
                 </p>
               </li>
               <li class="offering-item">
+                <svg class="icon-offering" width="48" height="48"><use href="./images/symbol-defs.svg#icon-touch"></use></svg>
                 <h3 class="offering-subtitle">Easy To Order</h3>
                 <p class="offering-desc">
                   You can browse through a wide variety of cuisines and restaurants, select your
@@ -91,54 +92,63 @@
             <li class="favorites-item">
               <img src="./images/gamburger-min.png" alt="gamburger" width="315" height="315" />
             </li>
-            <li><img src="./images/Pasta-min.png" alt="Pasta" width="315" height="315" /></li>
-            <li><img src="./images/pizza-min.png" alt="Pizza" width="315" height="315" /></li>
-            <li><img src="./images/chicken-min.png" alt="chicen" width="315" height="315" /></li>
-            <li><img src="./images/salat-min.png" alt="salat" width="315" height="315" /></li>
-            <li><img src="./images/borshch-min.png" alt="borshch" width="315" height="315" /></li>
+            <li class="favorites-item"><img src="./images/Pasta-min.png" alt="Pasta" width="315" height="315" /></li>
+            <li class="favorites-item"><img src="./images/pizza-min.png" alt="Pizza" width="315" height="315" /></li>
+            <li class="favorites-item"><img src="./images/chicken-min.png" alt="chicen" width="315" height="315" /></li>
+            <li class="favorites-item"><img src="./images/salat-min.png" alt="salat" width="315" height="315" /></li>
+            <li class="favorites-item"><img src="./images/borshch-min.png" alt="borshch" width="315" height="315" /></li>
           </ul>
         </div>
       </section>
-      <section>
-        <h2>What our Customers Say</h2>
-        <p>Don't just take our word for it - see what our satisfied customers have to say</p>
-        <ul>
-          <li>
-            <p>
-              Don't just take our word for it - see what our satisfied customers have to say“The
-              Best app I have used to order food in a while, so many options to choose from too, I
-              would recommend to a freind, No questions asked”
+
+
+      <section class="customers">
+        <div class="container wrap-customers">
+          <h2 class="customers-title">What our Customers Say</h2>
+        <p class="customers-text">Don't just take our word for it - see what our satisfied customers have to say</p>
+        <ul class="customers-list">
+          <li class="customers-item">
+            <svg class="customers-item-svg" width="101" height="18"><use href="./images/symbol-defs.svg#icon-Stars"></use></svg>
+            <p class="customers-item-text">
+              “The Best app I have used to order food in a while, so many options to choose from too, I would recommend to a freind, No questions asked”
             </p>
-            <img src="./images/Ellipse 9-min.png" alt="Ellipse 9-min" width="48" height="48" />
-            <h3>Sumith Shah</h3>
-            <p>Some Dude</p>
+            <div class="wrap-into-item">
+            <img src="./images/Ellipse 9-min.png" alt="Ellipse 9-min" width="48" height="48" class="customers-item-img"/>
+            <div class="wrap-wrap"><h3 class="customers-item-title">Sumith Shah</h3>
+            <p class="customers-item-text-in">Some Dude</p></div></div>
           </li>
-          <li>
-            <p>
+          <li class="customers-item">
+            <svg class="customers-item-svg" width="101" height="18"><use href="./images/symbol-defs.svg#icon-Stars"></use></svg>
+            <p class="customers-item-text">
               “The ease with which I can just go in and order what i want was amazing, It has been a
               very pleasant experience ordering from this app”
             </p>
-            <img src="./images/Ellipse 10-min.png" alt="Ellipse 10-min" width="48" height="48" />
-            <h3>Sumith Shah</h3>
-            <p>Some Dude</p>
-          </li>
-        </ul>
+            <div class="wrap-into-item">
+            <img src="./images/Ellipse 10-min.png" alt="Ellipse 10-min" width="48" height="48" class="customers-item-img"/>
+            <div class="wrap-wrap"><h3 class="customers-item-title">Sumith Shah</h3>
+            <p class="customers-item-text-in">Some Dude</p>
+          </li></div></div>
+        </ul></div>
       </section>
 
-      <section>
-        <h2>Subscribe To Get Special Offers</h2>
-        <p>
+      <section class="subscribe container">
+        <div class="wrap-subscrible"><h2 class="subscribe-title">Subscribe To Get Special Offers</h2>
+        <p class="subscribe-text">
           Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere.
         </p>
-        <form>
-          <input placeholder="Enter your email" type="email" />
-          <button type="submit">Subscribe</button>
-        </form>
-        <img src="./images/banan-min.png" alt="banan" width="608" height="266" />
+        <form class="subscribe-form">
+          <input placeholder="Enter your email" type="email" class="subscribe-input"/>
+          <button type="submit" class="subscribe-btn">Subscribe</button>
+        </form></div>
+        <img src="./images/banan-min.png" alt="banan" width="608" height="266" class="subscribe-banana"/>
       </section>
     </main>
 
-    <div class="beackdrop">
+    
+
+
+    <!-- is-open -->
+    <div class="beackdrop "> 
       <div class="modal">
         <button class="modal-close-btn">
           <svg class="modal-close-icon" width="11" height="11">

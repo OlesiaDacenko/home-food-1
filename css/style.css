@@ -107,7 +107,22 @@ background: #fefefe;
 .hero {
   display: flex;
   justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
 
+.wrap-img-svg {
+ position: relative;  
+}
+
+.yellov-circle-big {
+  border-radius: 291px;
+width: 528px;
+height: 528px;
+  /* position: absolute; */
+  right: 0;
+  top: 0; 
+  z-index: 2; 
 }
 
 .wrap-into-hero {
@@ -118,9 +133,12 @@ background: #fefefe;
   border-radius: 291px;
 width: 528px;
 height: 528px;
-/* background: url("path_to_image"); */
 margin-top: 14px;
 margin-bottom: 69px;
+position: absolute;
+right: 0;
+top: 0; 
+z-index: 3;
 }
 
 .hero-title {
@@ -147,6 +165,23 @@ width: 502.42px;
   padding-top: 113px;
   padding-bottom: 124px;
 }
+
+.wrap-apple-green {
+  position: relative;
+}
+
+.apple-img-green {
+  position: absolute;
+  top: -80px;
+  left: 60px;
+  z-index: 2;
+}
+.white-fon-icon {
+top: 186px;
+right: 40px;
+}
+
+
 
 .offering-conteiner {
   display: flex;
@@ -335,6 +370,7 @@ width: 395px;
 height: 42px;
 background: #fefefe;
 margin-right: 32px;
+
 }
 .subscribe-btn {
 font-family: "Roboto", sans-serif;
@@ -433,6 +469,7 @@ background: #fff;
 outline: transparent;
 padding-left: 12px;
 border: 2px solid transparent;
+color: #c4c4c4;
 }
 .modal-sent-btn {
   border: 2px solid #7eb101;
